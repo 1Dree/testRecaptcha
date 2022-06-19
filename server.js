@@ -14,4 +14,4 @@ app.post("/g-recapcha-assessment", (req, res) => {
   res.json("hello");
 });
 
-app.listen(3005, console.log("listening"));
+app.listen(precess.env.PORT || 3005, console.log("listening"));
